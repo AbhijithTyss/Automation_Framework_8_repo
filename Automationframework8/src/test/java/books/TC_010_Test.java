@@ -20,6 +20,6 @@ public class TC_010_Test extends BaseClass {
 		Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Books");
 		Reporter.log("Books page is displayed",true);
 		WebDriverUtility wLib=new WebDriverUtility(driver);
-		wLib.moveByOffset( 670, 570);
+//		wLib.moveByOffset( 670, 570);
 	}
 }
